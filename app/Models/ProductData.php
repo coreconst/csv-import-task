@@ -9,6 +9,13 @@ class ProductData extends Model
     protected $table = 'tblProductData';
 
     /**
+     * Indicates if the model should be timestamped.
+     *
+     * @var bool
+     */
+    public $timestamps = false;
+
+    /**
      * The attributes that are mass assignable.
      *
      * @var string[]

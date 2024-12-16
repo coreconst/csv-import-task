@@ -29,7 +29,7 @@ class ConvertCsvToArray
 
             return $data;
         } catch (Exception $e) {
-            echo $e->getMessage();
+            echo $e->getMessage(), "\n";
             return null;
         }
     }
